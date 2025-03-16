@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.container{
+    padding: 30px;
+}
+
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-one__contact{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-top: 5px;
+    display: inline-block;
+
+}
+
+.section-one__name{
+    font-size: 60px;
+    color: white;
+
+}
+.section-one a{
+    text-decoration: none;
+}
+
+
+.section-one__role{
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 20px;
+}
+
+.section-three li,.section-five li,.section-four__desc li{
+    list-style: none;
+}
+
+.section-three{
+    background-color: #6462fd;
+    display: inline-block;
+    color: black;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.section-four{
+    background-color: #fe7517;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-five a{
+    text-decoration: none;
+    color: aqua;
+}
